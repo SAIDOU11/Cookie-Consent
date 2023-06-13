@@ -3,6 +3,7 @@ const modalCloseBtn = document.getElementById("modal-close-btn");
 const consentForm = document.getElementById("consent-form");
 const modalText = document.getElementById("modal-text");
 const modalInner = document.getElementById("modal-inner");
+const declineBtn = document.getElementById("declineBtn");
 
 setTimeout(function () {
   modal.style.display = "inline";
@@ -10,6 +11,10 @@ setTimeout(function () {
 
 modalCloseBtn.addEventListener("click", () => {
   modal.style.display = "none";
+});
+
+declineBtn.addEventListener("mouseenter", () => {
+  console.log("hovered");
 });
 
 consentForm.addEventListener("submit", (e) => {
