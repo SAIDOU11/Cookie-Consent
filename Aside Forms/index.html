@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +7,38 @@
     <title>Aside Forms</title>
   </head>
   <body>
+    <header>
+      <img src="NASA.png" alt="Logo de la Nasa" />
+    </header>
+    <main>
+      <form id="login-form">
+        <label for="astronautName">Astronaut Name 👩‍🚀</label>
+        <input
+          type="text"
+          name="astronautName"
+          id="astronautName"
+          placeholder="Neil Armstrong"
+          required
+        />
+        <label for="astronautEmail">Astronaut Email</label>
+        <input
+          type="email"
+          name="astronautEmail"
+          placeholder="n.armstrong@nasa.com"
+          required
+        />
+        <label for="astronautPassword">Password</label>
+        <input
+          type="password"
+          name="astronautPassword"
+          id="astronautPassword"
+          placeholder="******"
+          required
+        />
+        <button type="submit">Submit</button>
+      </form>
+      <!-- form -->
+    </main>
     <script src="index.js"></script>
   </body>
 </html>
