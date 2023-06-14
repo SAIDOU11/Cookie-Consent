@@ -1,6 +1,8 @@
 const sortBtn = document.getElementById("sort-btn");
+const container = document.getElementById("container");
 
-sortBtn.addEventListener("click", function () {
+sortBtn.addEventListener("click", () => {
+  container.classList.toggle("reverse");
   /*
 Challenge:
 1. Make the Sort by Price button 

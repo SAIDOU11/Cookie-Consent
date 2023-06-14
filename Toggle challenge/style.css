@@ -19,6 +19,10 @@ p {
   margin-top: 40px;
 }
 
+.reverse {
+  flex-direction: row-reverse;
+}
+
 .img-details {
   width: 130px;
 }
